@@ -28,7 +28,9 @@ class Solution{
                     lastNode = lastNode->next;
                 }                
                 lastNode->next = newNode;
-                lastNode = head;
+		    
+		//The line below is not necessary
+                //lastNode = head;
             }
             return head;
         }
